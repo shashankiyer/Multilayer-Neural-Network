@@ -11,9 +11,6 @@ LEARNING_RATE = 0.001
 EPOCHS = 15
 
 
-# reset values to wrong
-
-
 class net:
     di = {1 : 3 , 2 : 4 , 3 : 1 , 4 : 2}
     dic_onehot = {-10 : 0 , 12 : 1 , 34 : 2 , 56 : 3 , 78 : 4 , 210 : 5}
